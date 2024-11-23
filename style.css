@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eeeeee;
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.heading {
+  padding-bottom: 1rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-wrapper .heading {
+    text-align: center;
+}
+input#number-kg,
+input#number-m {
+  height: 2rem;
+  padding: 5px;
+}
+
+.calcBtn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: yellow;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+
+
